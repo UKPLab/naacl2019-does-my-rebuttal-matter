@@ -42,5 +42,20 @@ https://www.tu-darmstadt.de/
 Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions. 
 
 ## Project Description
+This project includes three major parts: 
+    * the ACL-2018 Review dataset, 
+    * our quanlitative analyses on the dataset, and 
+    * our code for predicting whether the reviewer will increase/decrease/remain her overall score after rebuttal. 
 
-currently under construction
+According to the data sharing terms and conditions of ACL-2018, the opted-in reviews will be publically available no earlier than two years after the conference took place. We will publish the dataset in this project once it is allowed.
+
+## Requirement
+* Python 3 (tested with Python 3.6 on Ubuntu 16.04)
+* libraries in requirement.txt: pip install -r requirement.txt (the use of virtual environment is recommended)
+
+## Project Structure
+Discussion&Response: include the csv files of the opted-in reviews, submissions information (e.g. paper ids and acceptance/rejection decisions) and author responses. Will be published later.
+RebuttalAnalysis: code used to build the after-rebuttal score predictor. 'classify_after_label.py' includes the main function for the predictor. 'predict_after_score.py' builds a regression to predict the after-rebuttal score for each reviewer (its results are not reported in the orginal paper).
+
+
+
