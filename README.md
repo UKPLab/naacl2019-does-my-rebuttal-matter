@@ -1,4 +1,4 @@
-# Does my Rebuttal Matter? Insights From a Major NLP conference 
+# Does my Rebuttal Matter? Insights From a Major NLP Conference 
 
 This repository contains selected code and data for our NAACL 2019 long paper on [Does my Rebuttal Matter?]().
 
@@ -43,9 +43,9 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 
 ## Project Description
 This project includes three major parts: 
-    * the ACL-2018 Review dataset, 
-    * our quanlitative analyses on the dataset, and 
-    * our code for predicting whether the reviewer will increase/decrease/remain her overall score after rebuttal. 
+* the ACL-2018 Review dataset, 
+* our quanlitative analyses on the dataset, and 
+* our code for predicting whether the reviewer will increase/decrease/remain her overall score after rebuttal. 
 
 According to the data sharing terms and conditions of ACL-2018, the opted-in reviews will be publically available no earlier than two years after the conference took place. We will publish the dataset in this project once it is allowed.
 
