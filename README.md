@@ -54,8 +54,8 @@ According to the data sharing terms and conditions of ACL-2018, the opted-in rev
 * libraries in requirement.txt: pip install -r requirement.txt (the use of virtual environment is recommended)
 
 ## Project Structure
-Discussion&Response: include the csv files of the opted-in reviews, submissions information (e.g. paper ids and acceptance/rejection decisions) and author responses. Will be published later.
-RebuttalAnalysis: code used to build the after-rebuttal score predictor. 'classify_after_label.py' includes the main function for the predictor. 'predict_after_score.py' builds a regression to predict the after-rebuttal score for each reviewer (its results are not reported in the orginal paper).
+* Discussion&Response: includes the csv files of the opted-in reviews, submissions information (e.g. paper ids and acceptance/rejection decisions) and author responses. Will be published once allowed.
+* RebuttalAnalysis: code used to build the after-rebuttal score predictor. 'classify_after_label.py' includes the main function for the predictor. 'predict_after_score.py' builds a regression to predict the after-rebuttal score for each reviewer (its results are not reported in the orginal paper).
 
 
 
