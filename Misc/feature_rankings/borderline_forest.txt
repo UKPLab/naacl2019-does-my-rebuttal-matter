@@ -1,0 +1,30 @@
+cvc_min      0.037      0.004 ***
+plt_mean      -0.094      0.221
+spec_mean      0.152      0.231
+cvc_median      0.056      0.113
+other_dev      -0.230      0.103
+other_conf_max      -0.262      0.498
+other_conf_dev      0.171      0.920
+cvc_std      0.063      0.000 ***
+plt_std      0.003      0.002 ***
+all_median      0.329      0.000 ***
+other_median      -0.300      0.412
+cvc_max      -0.077      0.000 ***
+spec_min      0.003      0.178
+plt_max      0.047      0.011 **
+spec_median      -0.081      0.511
+all_dev      -0.009      0.000 ***
+all_max-self      0.573      0.000 ***
+spec_max      -0.058      0.001 ***
+all_min      0.462      0.000 ***
+prev. score**2      -0.138      0.000 ***
+other_min      -0.386      0.628
+plt_median      0.062      0.172
+other_conf_mean      0.217      0.556
+self_prev      0.935      0.000 ***
+cvc_mean      -0.047      0.132
+log_resp_length      0.026      0.000 ***
+self_prev_conf      -0.024      0.165
+rev_resp_embd_sim      0.041      0.000 ***
+spec_std      -0.010      0.027 **
+plt_min      0.034      0.000 ***
