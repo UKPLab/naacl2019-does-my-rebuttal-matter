@@ -1,6 +1,6 @@
 # Does my Rebuttal Matter? Insights From a Major NLP Conference 
 
-This repository contains selected code and data for our NAACL 2019 long paper on [Does my Rebuttal Matter?]().
+This repository contains selected code and data for our NAACL 2019 long paper on [Does my Rebuttal Matter?](https://arxiv.org/pdf/1903.11367.pdf).
 
 ## Citation
 
