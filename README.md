@@ -5,7 +5,7 @@ This repository contains selected code and data for our NAACL 2019 long paper on
 ## Citation
 
 ```
-@inproceedings{gao_naacl:2019,
+@inproceedings{Gao:2019:NAACL,
             title = {Does my Rebuttal Matter? Insights From a Major NLP conference},
             year = {2019},
           author = {Yang Gao and Steffen Eger and Ilia Kuznetsov and Iryna Gurevych and Yusuke Miyao},
@@ -17,19 +17,21 @@ This repository contains selected code and data for our NAACL 2019 long paper on
 ```
 > **Abstract:** Peer review is a core element of the scientific
 process, particularly in conference-centered
-fields such as ML and NLP. However, only few
-studies have evaluated its properties empirically on a large scale. Aiming to fill this gap, 
-we present a review corpus, which contains
-over 4k reviews and 1.2k author responses
-from a major NLP conference. We quantitatively and qualitatively assess the corpus. This 
-includes a pilot study on paper weaknesses
-given by reviewers and on quality of author
-responses. We then focus on the role of the
-rebuttal phase, and propose a novel NLP task
-to predict after-rebuttal (i.e., final) scores from
-initial reviews and author responses. Our results suggest that the final scores can largely
-be explained by the initial scores, challenging
-the usefulness of the rebuttal phase in NLP. 
+fields such as ML and NLP. However, only
+few studies have evaluated its properties empirically. Aiming to fill this gap, we present
+a corpus that contains over 4k reviews and
+1.2k author responses from ACL-2018. We
+quantitatively and qualitatively assess the corpus. This includes a pilot study on paper
+weaknesses given by reviewers and on quality of author responses. We then focus on
+the role of the rebuttal phase, and propose
+a novel task to predict after-rebuttal (i.e., final) scores from initial reviews and author responses. Although author responses do have
+a marginal (and statistically significant) influence on the final scores, especially for borderline papers, our results suggest that a reviewer’s final score is largely determined by
+her initial score and the distance to the other
+reviewers’ initial scores. In this context, we
+discuss the conformity bias inherent to peer
+reviewing, a bias that has largely been overlooked in previous research. We hope our
+analyses will help better assess the usefulness
+of the rebuttal phase in NLP conferences
 
 
 Contact person: Yang Gao gao@ukp.informatik.tu-darmstadt.de, Steffen Eger, Ilia Kuznetsov
@@ -56,6 +58,6 @@ According to the data sharing terms and conditions of ACL-2018, the opted-in rev
 ## Project Structure
 * Discussion&Response: includes the csv files of the opted-in reviews, submissions information (e.g. paper ids and acceptance/rejection decisions) and author responses. Will be published once allowed.
 * RebuttalAnalysis: code used to build the after-rebuttal score predictor. 'classify_after_label.py' includes the main function for the predictor. 'predict_after_score.py' builds a regression to predict the after-rebuttal score for each reviewer (its results are not reported in the orginal paper).
-
+* Word embeddings: We provide word embeddings trained on Machine Learning and NLP Arxiv papers. The embeddings are available from 
 
 
