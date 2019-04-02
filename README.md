@@ -58,6 +58,18 @@ According to the data sharing terms and conditions of ACL-2018, the opted-in rev
 ## Project Structure
 * Discussion&Response: includes the csv files of the opted-in reviews, submissions information (e.g. paper ids and acceptance/rejection decisions) and author responses. Will be published once allowed.
 * RebuttalAnalysis: code used to build the after-rebuttal score predictor. 'classify_after_label.py' includes the main function for the predictor. 'predict_after_score.py' builds a regression to predict the after-rebuttal score for each reviewer (its results are not reported in the orginal paper).
-* Word embeddings: We provide word embeddings trained on Machine Learning and NLP Arxiv papers. The embeddings are available from 
+
+## Word embeddings
+We provide word2vec word embeddings trained on Machine Learning (cs.LG) and NLP (cs.CL) Arxiv papers. The embeddings are available from 
+https://public.ukp.informatik.tu-darmstadt.de/naacl2019-does-my-rebuttal-matter
+
+## Log-likelihood ratio (LLR) for two datasets
+
+To run a LLR test to determine the most "unusual" words in one corpus relative to another, run
+```
+python3 getMostFrequent.py accepted.txt rejected.txt 100 2
+
+```
+This returns the 100 most unusual bigrams of `accepted.txt` relative to `rejected.txt`. The two input files are plain text files with words separated by white space.
 
 
