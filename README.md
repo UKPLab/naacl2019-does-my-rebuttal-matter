@@ -31,8 +31,7 @@ reviewers’ initial scores. In this context, we
 discuss the conformity bias inherent to peer
 reviewing, a bias that has largely been overlooked in previous research. We hope our
 analyses will help better assess the usefulness
-of the rebuttal phase in NLP conferences
-
+of the rebuttal phase in NLP conferences  
 
 Contact person: Yang Gao gao@ukp.informatik.tu-darmstadt.de, Steffen Eger, Ilia Kuznetsov
 
@@ -71,5 +70,7 @@ python3 getMostFrequent.py accepted.txt rejected.txt 100 2
 
 ```
 This returns the 100 most unusual bigrams of `accepted.txt` relative to `rejected.txt`. The two input files are plain text files with words separated by white space.
+
+## NOTE/ERRATUM: In Fig. 2 in the [paper](https://arxiv.org/pdf/1903.11367.pdf), "RPB" stands for "Reproducibility", an aspect score in the review template. [Yuval Pinter](www.yuvalpinter.com) kindly informed us that we did not explain the meaning of "RPB" in the paper. We apologise for this ignorance.
 
 
