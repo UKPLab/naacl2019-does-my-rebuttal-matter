@@ -34,7 +34,7 @@ analyses will help better assess the usefulness
 of the rebuttal phase in NLP conferences
 
 
-Contact person: Yang Gao gao@ukp.informatik.tu-darmstadt.de, Steffen Eger, Ilia Kuznetsov
+Contact person: Yang Gao gao@ukp.informatik.tu-darmstadt.de, Steffen Eger eger@aiphes.tu-darmstadt.de, Ilia Kuznetsov
 
 https://www.ukp.tu-darmstadt.de/
 
