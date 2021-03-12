@@ -8,7 +8,7 @@ After the publication of the original paper some members of the ACL community ha
 
 We are working on technical solutions to make the textual data from ACL-2018 accessible in some form. In the meantime, due to the large number of requests, we release a completely anonymous _ACL-2018 Numerical Dataset_: it doesn't contain the sensitive textual data, but provides rich metadata incl. aspect scores, contribution evaluation and formal checks, as well as track and acceptance information. We hope that this data will serve as basis for non-NLP models of peer reviewing, and as a rich auxiliary signal for future NLP approaches. 
 
-You can access the data via our University archive: https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2639?locale-attribute=en_US
+You can access the data via our University archive: https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2639?locale-attribute=en_US.
 If you use it, please use the original "Does my Rebuttal Matter" paper as reference.
 
 ## Citation
