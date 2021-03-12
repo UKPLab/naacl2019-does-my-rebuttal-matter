@@ -2,6 +2,15 @@
 
 This repository contains selected code and data for our NAACL 2019 long paper on [Does my Rebuttal Matter?](https://arxiv.org/pdf/1903.11367.pdf).
 
+# Update March 2021
+
+After the publication of the original paper some members of the ACL community have expressed concerns about the technicalities of the consent collection procedure used during the ACL-2018 reviewing campaign. We take such concerns seriously, and due to ethical and privacy-related reasons can not make the textual reviewing data from ACL-2018 openly available. We have designed better data collection workflows since then, and you might have been involved in some of our later and current initiatives. 
+
+We are working on technical solutions to make the textual data from ACL-2018 accessible in some form. In the meantime, due to the large number of requests, we release a completely anonymous _ACL-2018 Numerical Dataset_: it doesn't contain the sensitive textual data, but provides rich metadata incl. aspect scores, contribution evaluation and formal checks, as well as track and acceptance information. We hope that this data will serve as basis for non-NLP models of peer reviewing, and as a rich auxiliary signal for future NLP approaches. 
+
+You can access the data via our University archive: https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2639?locale-attribute=en_US
+If you use it, please use the original "Does my Rebuttal Matter" paper as reference.
+
 ## Citation
 
 ```
