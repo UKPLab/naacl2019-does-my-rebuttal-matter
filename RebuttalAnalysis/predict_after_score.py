@@ -1,5 +1,5 @@
 # SAMPLE USAGE:
-# python3 step2_featureSelction_regression.py
+# python3 predict_after_score.py
 # before running, install all packages in requirement.txt
 
 import sys

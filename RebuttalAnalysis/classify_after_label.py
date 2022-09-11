@@ -1,5 +1,5 @@
 # SAMPLE USAGE:
-# python3 step2_featureSelction_regression.py
+# python3 classify_ater_label.py
 # before running, install all packages in requirement.txt
 
 import sys
