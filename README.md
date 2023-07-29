@@ -79,6 +79,6 @@ To run a LLR test to determine the most "unusual" words in one corpus relative t
 python3 getMostFrequent.py accepted.txt rejected.txt 100 2
 
 ```
-This returns the 100 most unusual bigrams of `accepted.txt` relative to `rejected.txt`. The two input files are plain text files with words separated by white space. Each document in `accepted.txt' and `rejected.txt' should end with a newline of "<--EOD-->".
+This returns the 100 most unusual bigrams of `accepted.txt` relative to `rejected.txt`. The two input files are plain text files with words separated by white space. Each document in `accepted.txt` and `rejected.txt` should end with a newline of "<--EOD-->".
 
 
